@@ -1,0 +1,4 @@
+R1_running_config_2026-01-17.txt in automation-test repository
+
+write content:
+{
