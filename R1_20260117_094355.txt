@@ -1,0 +1,33 @@
+R1_20260117_094355.txt in automation-test repository
+
+write content:
+Building configuration...
+
+Current configuration : 6407 bytes
+!
+! Last configuration change at 09:41:46 UTC Sat Jan 17 2026 by admin
+!
+version 16.11
+service config
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service call-home
+platform qfp utilization monitor load 80
+no platform punt-keepalive disable-kernel-core
+platform console serial
+!
+hostname R1
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no logging console
+enable secret 9 $9$PYQlwwVw9EPv6E$9YAmIX.Z51HOPYawKUVq7jOyRKBcakBO0WLk9iFqoAo
+!
+no aaa new-model
+call-home
+ ! If contact email address in call-home is configured as sch-smart-licensing@cisco.com
+ ! the email address configured in Cisco Smart License Portal will be used as contact email address to send SCH notifications.
+ contact-email-addr sch-smart-licensing@cisco.com
+ profile
