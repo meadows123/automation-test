@@ -1,1 +1,1 @@
-Line has invalid autocommand "show running-config"
+Password:
