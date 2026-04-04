@@ -1,1 +1,1 @@
-Command executed successfully
+Line has invalid autocommand "show running-config"
